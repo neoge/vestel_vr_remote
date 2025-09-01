@@ -1,0 +1,441 @@
+# Extended remote card using universal-remote-card
+# Layout: Full grid with number pad, navigation, and advanced controls
+# Icons are automatically taken from the entities; names are hidden
+# Customize 'vestel_tv' to match your device name (e.g., 'living_room_tv')
+type: grid
+title: Vestel TV Remote
+square: false
+columns: 4
+cards:
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_power
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_power
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_source
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_source
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_channel
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_channel
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_quick_menu
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_quick_menu
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_info
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_info
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_up
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_up
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_menu
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_menu
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_volume_up
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_volume_up
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_left
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_left
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_ok
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_ok
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_right
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_right
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_mute
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_mute
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_back
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_back
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_down
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_down
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_exit
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_exit
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_volume_down
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_volume_down
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_digit_1
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_digit_1
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_digit_2
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_digit_2
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_digit_3
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_digit_3
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_channel_up
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_channel_up
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_digit_4
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_digit_4
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_digit_5
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_digit_5
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_digit_6
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_digit_6
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_channel_down
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_channel_down
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_digit_7
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_digit_7
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_digit_8
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_digit_8
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_digit_9
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_digit_9
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_favorites
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_favorites
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_language
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_language
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_digit_0
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_digit_0
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_subtitles
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_subtitles
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_epg
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_epg
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_rewind
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_rewind
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_pause
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_pause
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_play
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_play
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_forward
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_forward
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_record
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_record
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_stop
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_stop
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_aspect_ratio
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_aspect_ratio
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_swap
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_swap
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_red
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_red
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_yellow
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_yellow
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_green
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_green
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_blue
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_blue
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_presets
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_presets
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_app
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_app
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_media_browser
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_media_browser
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_teletext
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_teletext

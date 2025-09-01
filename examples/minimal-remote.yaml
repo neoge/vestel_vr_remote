@@ -1,0 +1,171 @@
+# Minimal remote layout using built-in grid card with button cards
+# Layout: Simple grid for navigation and basic controls
+# Icons are automatically taken from the entities; names are hidden
+# Customize 'vestel_tv' to match your device name (e.g., 'living_room_tv')
+type: grid
+title: Vestel TV Remote
+square: false
+columns: 3
+cards:
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_power
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_power
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_rewind
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_rewind
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_forward
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_forward
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_play
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_play
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_pause
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_pause
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_stop
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_stop
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_volume_down
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_volume_down
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_mute
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_mute
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_volume_up
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_volume_up
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_info
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_info
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_up
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_up
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_menu
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_menu
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_left
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_left
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_ok
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_ok
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_right
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_right
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_back
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_back
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_down
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_down
+  - show_name: false
+    show_icon: true
+    type: button
+    entity: button.vestel_tv_exit
+    tap_action:
+      action: call-service
+      service: button.press
+      target:
+        entity_id: button.vestel_tv_exit

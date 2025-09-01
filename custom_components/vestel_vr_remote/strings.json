@@ -1,0 +1,19 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configure Vestel VR Remote",
+        "data": {
+          "host": "TV IP Address",
+          "name": "Device Name"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to the TV. Check the IP and ensure the TV is reachable."
+    },
+    "abort": {
+      "already_configured": "This TV is already configured."
+    }
+  }
+}

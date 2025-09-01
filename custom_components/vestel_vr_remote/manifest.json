@@ -1,0 +1,11 @@
+{
+  "domain": "vestel_vr_remote",
+  "name": "Vestel VR Remote",
+  "version": "1.0.0",
+  "documentation": "https://github.com/neoge/vestel_vr_remote",
+  "issue_tracker": "https://github.com/neoge/vestel_vr_remote/issues",
+  "codeowners": ["@neoge"],
+  "config_flow": true,
+  "integration_type": "device",
+  "iot_class": "local_push"
+}
