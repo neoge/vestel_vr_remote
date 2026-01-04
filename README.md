@@ -4,6 +4,8 @@ This integration is named "Vestel VR Remote" after the API endpoint URL used for
 
 A custom integration to control TVs using the Vestel VR Remote API. Vestel hardware and API are used by various brands, including Telefunken, JVC, Toshiba, RCA, and Hitachi, so this may work with similar models. Tested with Telefunken XU65A441.
 
+![Dashboard remote](screenshots/dashboard_remote.png)
+
 ## Features
 - Configurable via UI: Enter IP and device name.
 - Supports multiple TVs (different IPs).
